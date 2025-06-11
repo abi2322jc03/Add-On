@@ -1,7 +1,7 @@
 package program;
 class StudentManagement{
  private String Student;
- private int Marks;StudentManageme
+ private int Marks;StudentManagement
     StudentManagement(String Student,int Marks){
         this.Student= Student;
         this.Marks=Marks;
@@ -19,7 +19,7 @@ class StudentManagement{
    public class Student {
      public static void main(String[] args) {
 
-     StudentManagement in= new StudentManagement("akalya",86 + 91 + 93);
+     StudentManagement in= new StudentManagement("abishek",86 + 91 + 93);
 
      System.out.println("Student Name:"+in.getStudent());
 
