@@ -1,20 +1,28 @@
 package day4java;
 
+import java.util.*;
+
 public class Task1Day5 {
 
 	public static void main(String[] args) {
 
+		Scanner in = new Scanner(System.in);
+
 		try {
 
-			int a = 2;
+			System.out.println("enter the number 1:");
 
-			int b = 4;
+			int a = in.nextInt();
 
-			int c;
+			System.out.println("enter the number 2:");
 
-			c = a / b;
+			int b = in.nextInt();
 
-			System.out.println("the answer is:" + c);
+			int T;
+
+			T = a / b;
+
+			System.out.println("the answer is:" + T);
 
 		}
 
